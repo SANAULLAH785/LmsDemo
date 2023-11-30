@@ -14,10 +14,9 @@ const MultipleChoice = ({
   const [mode, setMode] = useState("singleselect");
   useEffect(() => {
     Updatequestion();
-  }, [correctIndex,options,questionStatement]);
+  }, [correctIndex, options, questionStatement,mode]);
   const handleAddMoreOptions = () => {
     setOptions([...options, ""]);
-    Updatequestion();
   };
   const HandleStatement = (e) => {
     setQuestionStatement(e.target.value);
@@ -53,11 +52,10 @@ const MultipleChoice = ({
       setCorrectIndex([index]);
     }
   };
-  
+
   const handleButtonSelect = (newMod) => {
     setMode(newMod);
     setCorrectIndex([]);
-    Updatequestion();
   };
   const Updatequestion = () => {
     const newQuestion = {
@@ -73,7 +71,7 @@ const MultipleChoice = ({
     onUpdateQuestion(newQuestion, questionIndex);
   };
   const handleAddQuestion = () => {
-    onAddMultipleChoice(  "Multiple Choice Questions" );
+    onAddMultipleChoice("Multiple Choice Questions");
   };
   return (
     <>
@@ -119,7 +117,9 @@ const MultipleChoice = ({
                 style={{ width: "46%" }}
                 type="text"
                 value={option}
-                onChange={(e) => handleOptionStatementChange(index, e.target.value)}
+                onChange={(e) =>
+                  handleOptionStatementChange(index, e.target.value)
+                }
               />
               <Select
                 style={{ width: "16%" }}
