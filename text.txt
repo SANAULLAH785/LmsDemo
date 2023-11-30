@@ -1,0 +1,194 @@
+ <div className="banContainer">
+      <h1
+        style={{
+          fontWeight: "700",
+          color: "#081735",
+          fontFamily: "work sans, sans-serif",
+          marginTop: "20px",
+          marginBottom: "20px",
+        }}
+      >
+        My Products
+      </h1>
+      <div className="wrapper">
+        <div style={{ padding: "5px", display: "inline-block" }}>
+          <img src={course} alt="" width={100} height={105} />
+        </div>
+        <div className="courses-wrapper">
+          <div>
+            <img src={course1} alt="" width="100px" height="100px" />
+          </div>
+          <p className="crsHeading">COURSES</p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div className="wrapper">
+        <div className="qz-wrapper">
+          <p className="crsHeading">Quiz</p>
+            <img src={frame} alt="" width="100px" height="100px" style={{paddingTop:'30px'}} />
+    
+          <div>
+          <img
+                src={group}
+                alt="groups"
+                width="100px"
+                height="100px"
+                style={{ opacity: "0.2" ,textAlign:'right'}}
+              />
+          </div>
+        </div>
+        <br /><br />
+        
+     
+      </div>
+      <br /><br />
+      <div className="wrapper">
+            <div className="flash-wrapper">
+                <div>
+                    <img src={group1} alt="" />
+                </div>
+            </div>
+        </div>
+        <br /><br />
+        <div className="wrapper">
+            <div className="flash-wrapper">
+                <div>
+                    <img src={group1} alt="" />
+                </div>
+            </div>
+        </div>
+        <br /><br />
+        <div className="wrapper">
+            <div className="flash-wrapper">
+                <div>
+                    <img src={group1} alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    //Css
+
+
+    .banContainer {
+  padding: 5px;
+  /* margin: auto 0; */
+}
+.wrapper {
+  width: 990px;
+  height: 180.6px;
+  border-radius: 8px;
+  background-color: #218c75;
+  /* text-align: center; */
+
+  
+}
+.courses-wrapper{
+    position: relative;
+    display: flex;
+    left:20em;
+    bottom: 6rem;
+    padding: 10px;
+}
+
+.crsHeading {
+  /* border: 4px solid white; */
+  /* opacity: 70%; */
+  font-family: 'Work Sans';
+  font-size: 80px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 95px;
+  letter-spacing: 5.052631378173828px;
+  text-align: left;
+  color: #ffffff;
+ 
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.5px
+ 
+}
+
+@import "compass/css3";
+
+body {
+  padding: 0 0 0 3em;
+  background: whitesmoke;
+};
+
+h1 {
+  font-size: 4em;
+  -webkit-text-stroke: 3px darkgrey;
+  -webkit-text-fill-color: white;
+  -webkit-animation: fill 0.5s infinite alternate;
+};
+.qz-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flash-wrapper{
+    
+}
+
+
+
+
+
+Banner
+
+
+
+ <div className="banContainer">
+      <h1 style={{ paddingBottom: "2rem" }}>My products</h1>
+      <div className="wrapper  wrapper1">
+        <div>
+          <img
+            src={course}
+            alt="courses"
+            width="100px"
+            height="100px"
+            style={{ margin: "10px" }}
+          />
+        </div>
+        <div className="courses">
+          <img src={course1} alt="" width="100px" height="100px" />
+          <p className="text-stroke">COURSES</p>
+        </div>
+      </div>
+      <div className="wrapper wrapper2" style={{ marginTop: "2rem" ,backgroundColor: '#0F745E'}}>
+        <div className="quiz">
+          <p className="text-stroke">Quiz</p>
+          <img src={finger} alt="" width="100px" height="100px" style={{marginLeft:'20px'}} />
+        </div>  
+        <div>
+          <img src={group} alt="" style={{opacity:'0.2'}}/>
+        </div>
+      </div>
+      <div className="wrapper" style={{ marginTop: "2rem", backgroundColor:' #095A49'}}>
+        <div>
+          <img src={group1} alt=""  width="160px" height="165px" style={{opacity:'0.2'}} />
+        </div>
+        <div className="courses">
+          <img src={flash} alt=""   width="100px" height="100px" style={{marginRight:'20px'}}/>
+          <p className="text-stroke">Flash Card</p>
+        </div>
+      </div>
+      <div className="wrapper " style={{ marginTop: "2rem",backgroundColor:'#0F745E', paddingLeft:'2rem', paddingRight:'2rem' }}>
+        <div className="courses">
+          <p className="text-stroke" style={{}}>ASSIGNMENTS</p>
+          <img src={finger} alt=""  width='100px' height='80px'/>
+        </div>
+        <div>
+        <img src={group} alt="" style={{opacity:'0.2'}}/>
+
+        </div>
+      </div>
+      {/* <div className="wrapper" style={{ marginTop: "2rem" }}></div> */}
+      <br /><br /><br /><br /><br /><br />
+    </div>

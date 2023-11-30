@@ -1,0 +1,22 @@
+/* BreadCrumbs.css */
+
+.breadcrumbs {
+    /* Add any common styles for breadcrumbs container here */
+  }
+  
+  .breadcrumb-segment {
+    /* Add any common styles for breadcrumb segments here */
+  }
+  
+  .last {
+    color: black; /* Black color for the last breadcrumb */
+  }
+  
+  .regular-link {
+    color: green; /* Green color for regular breadcrumbs */
+  }
+  
+  .last-link {
+    color: black; /* Black color for the link in the last breadcrumb */
+  }
+  

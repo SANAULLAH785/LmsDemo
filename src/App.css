@@ -1,0 +1,74 @@
+.question{
+    background-color:#FFFFFF;
+    ;
+    margin-left: 61px;
+    margin-top: 61px;
+    width: 1097px;
+height: 679px;
+padding: 20px;
+border-radius: 8px;
+gap: 32px
+
+
+}
+.layoutPlaceholder{
+    width: 60%;
+    border-color:4px solid gainsboro;
+    height: 42px;
+    padding: 11px 12px 11px 12px;
+    border: 1px;
+    gap: 10px
+    
+
+
+}
+.singleselect{
+    width: 123px;
+    background-color:#6AD4CB;
+    border-color: #FFFFFF;
+    color: white;
+height: 39px;
+padding: 10px;
+border-radius: 4px;
+gap: 10px
+
+
+
+}
+.multiselect{
+    width: 115px;
+    background-color: #FFFFFF;
+    border-color: beige;
+height: 39px;
+padding: 10px;
+border-radius: 4px;
+gap: 10px
+
+
+}
+.selectiondiv{
+    display: flex;
+    /* width: 1057px; */
+    /* padding: 10px; */
+    border-radius: 4px;
+    margin-top: 12px;
+    height: 44px;
+    gap: 8px
+    
+}
+.addoption{
+    width: 141px;
+height: 44px;
+padding: 10px;
+border-radius: 6px;
+margin-top: 7px;
+gap: 4px;
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: left;
+
+
+}

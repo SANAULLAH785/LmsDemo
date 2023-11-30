@@ -1,0 +1,139 @@
+.mainfram {
+  display: flex;
+  width: 1097px;
+  height: 1321px;
+  top: 236px;
+  left: 311px;
+  gap: 32px;
+}
+.divup{
+  color: #818181;
+}
+.divup2{
+  color: 
+  #081735;
+font-family: Work Sans;
+font-size: 20px;
+margin: 15px;
+
+
+}
+
+
+.inputdiv {
+  margin-left: 12px;
+  background-color: white;
+  width: 1093px;
+ 
+  padding: 20px;
+  border-radius: 8px;
+  gap: 16px;
+  margin-top: 10px;
+  
+}
+
+.radio {
+  width: 1053px;
+  height: 24px;
+  gap: 16px;
+  margin-top: 15px;
+}
+
+.input1 {
+  width: 1057px;
+  height: 29px;
+  padding: 11px, 12px, 11px, 12px;
+  margin-left: 40px;
+  gap: 30px;
+}
+
+.tab {
+  width: 1093px;
+  height: 72px;
+  padding: 20px;
+  border-radius: 8px;
+  gap: 16px;
+}
+
+.assignmnt {
+  margin-left: 12px;
+  background-color: white;
+  width: 1093px;
+ 
+  padding: 20px;
+  border-radius: 8px;
+  gap: 16px;
+  margin-top: 10px;
+}
+.assignmnt1 {
+  margin-top: 10px;
+  margin-left: 12px;
+  background-color: white;
+  width: 1093px;
+  
+ 
+  padding: 20px;
+  border-radius: 8px;
+  gap: 16px;
+}
+.checkbox1 {
+  display: flex;
+  padding: 10px;
+}
+.quizrestriction {
+  margin: 12px;
+  background-color: white;
+  width: 1093px;
+  height: 155px;
+  padding: 20px;
+  border-radius: 8px;
+  gap: 16p;
+}
+.richtextDIV {
+  margin-left: 12px;
+  background-color: white;
+  width: 1093px;
+  
+  padding: 20px;
+  border-radius: 8px;
+  gap: 16px;
+}
+.quizinfomain {
+  width: 1097px;
+  height: 837px;
+  top: 236px;
+  left: 311px;
+  gap: 32px;
+}
+.endTab {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+.btnreset {
+  width: 81px;
+  height: 36px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px;
+  color: #818181;
+  background-color: white;
+  gap: 4px;
+}
+.btnsave {
+  width: 132px;
+  height: 36px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px;
+  color: white;
+  background-color: #10baac;
+  gap: 4px;
+}
+.startTab {
+    display: flex;
+    gap: 5px;
+    margin: 5px;
+    margin-left: 10px;
+  
+  }

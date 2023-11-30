@@ -1,0 +1,64 @@
+.addoption {
+  outline: none;
+  align-self: flex-start;
+  margin-top: 10px;
+  border: none;
+  background-color: white;
+  color: #08496d;
+}
+.optionnum {
+  background-color: #10baac;
+  border: 1px solid #10baac;
+  height: 50px;
+  width: 50px;
+  margin-right: 0px;
+  display: grid;
+  padding: 15px;
+}
+.multibtn {
+  background-color: white;
+  width: 100px;
+  margin: 2px;
+  border: none;
+  height: 36px;
+  color: black;
+  transition: background-color 0.3s; /* Optional: Add a smooth transition effect */
+}
+
+.multibtn:hover,
+.multibtn:focus {
+  background-color: #10baac;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.multibtn.active,
+.singlebtn.active {
+  background-color: #10baac;
+}
+.singlebtn {
+  background-color: white;
+  width: 100px;
+  margin: 2px;
+  border: none;
+  height: 36px;
+  color: black;
+  transition: background-color 0.3s;
+}
+.singlebtn:hover,
+.singlebtn:focus {
+  background-color: #10baac;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.questionbuttonmcq {
+  outline: 1px solid #10baac;
+  border: black;
+  background-color: transparent;
+  /* filter: drop-shadow(5px 5px 10px black); */
+  /* background-color: #10baac; */
+  /* padding: 10px; */
+  margin-top: 5%;
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+}

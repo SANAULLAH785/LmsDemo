@@ -1,0 +1,64 @@
+{
+  "quize": [
+    {
+      "id": 1,
+      "richText": "I am a rich text",
+      "quizType": false,
+      "isShuffleAnswers": false,
+      "iSseeStudentResponse": false,
+      "isAlloMultipleAtemmpt": false,
+      "isShowOneQuestion": false,
+      "isTimeLimit": false,
+      "isShuffleQuestion": false,
+      "accesscode": false,
+      "ipAddress": false,
+      "assignToEveryOne": false,
+      "createGroup": false
+    },
+    {
+      "richText": "<p>amir</p>",
+      "quizType": "practice",
+      "isShuffleAnswers": true,
+      "iSseeStudentResponse": false,
+      "isAlloMultipleAtemmpt": true,
+      "isShowOneQuestion": false,
+      "isTimeLimit": false,
+      "isShuffleQuestion": false,
+      "accesscode": true,
+      "ipAddress": false,
+      "assignToEveryOne": false,
+      "createGroup": true,
+      "id": 2
+    },
+    {
+      "richText": "<p>amir bhi</p>",
+      "quizType": "grade",
+      "isShuffleAnswers": true,
+      "iSseeStudentResponse": true,
+      "isAlloMultipleAtemmpt": true,
+      "isShowOneQuestion": true,
+      "isTimeLimit": true,
+      "isShuffleQuestion": false,
+      "accesscode": true,
+      "ipAddress": true,
+      "assignToEveryOne": true,
+      "createGroup": true,
+      "id": 3
+    },
+    {
+      "richText": "<p>ruoige</p>",
+      "quizType": "practice",
+      "isShuffleAnswers": false,
+      "iSseeStudentResponse": true,
+      "isAlloMultipleAtemmpt": false,
+      "isShowOneQuestion": true,
+      "isTimeLimit": false,
+      "isShuffleQuestion": false,
+      "accesscode": false,
+      "ipAddress": true,
+      "assignToEveryOne": true,
+      "createGroup": false,
+      "id": 4
+    }
+  ]
+}
